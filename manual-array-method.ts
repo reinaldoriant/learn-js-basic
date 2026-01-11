@@ -40,6 +40,8 @@ const createMap = (a: any[], callback: (value: any) => any) => {
     return tempArr;
 }
 
+const myFunction = (num: number) => num * 2;
+
 console.log(
   createMap([1,2,3,4], myFunction)
 );
